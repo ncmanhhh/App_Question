@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/rcv_question"
+        android:layout_width="375dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="48dp"
+        android:text="What is the meaning of UI UX Design?"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="412dp"
+        android:layout_height="548dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rcv_question">
+
+        <ImageButton
+            android:id="@+id/btn_rlA"
+            android:layout_width="39dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toStartOf="@+id/rlA"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/reply" />
+
+        <TextView
+            android:id="@+id/txt_rlA"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="A"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_rlA"
+            app:layout_constraintEnd_toEndOf="@+id/btn_rlA"
+            app:layout_constraintStart_toStartOf="@+id/btn_rlA"
+            app:layout_constraintTop_toTopOf="@+id/btn_rlA" />
+
+        <TextView
+            android:id="@+id/rlA"
+            android:layout_width="302dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:text="User Interfoce and User Experience"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/btn_rlB"
+            android:layout_width="39dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_rlA"
+            app:srcCompat="@drawable/reply" />
+
+        <TextView
+            android:id="@+id/txt_rlB"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="B"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_rlB"
+            app:layout_constraintEnd_toEndOf="@+id/btn_rlB"
+            app:layout_constraintStart_toStartOf="@+id/btn_rlB"
+            app:layout_constraintTop_toTopOf="@+id/btn_rlB" />
+
+        <TextView
+            android:id="@+id/rlB"
+            android:layout_width="302dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="User Introface and User Experience"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toEndOf="@+id/btn_rlB"
+            app:layout_constraintTop_toBottomOf="@+id/rlA" />
+
+        <ImageButton
+            android:id="@+id/btn_rlC"
+            android:layout_width="39dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_rlB"
+            app:srcCompat="@drawable/reply" />
+
+        <TextView
+            android:id="@+id/txt_rlC"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="C"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_rlC"
+            app:layout_constraintEnd_toEndOf="@+id/btn_rlC"
+            app:layout_constraintStart_toStartOf="@+id/btn_rlC"
+            app:layout_constraintTop_toTopOf="@+id/btn_rlC"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="245dp" />
+
+        <TextView
+            android:id="@+id/rlC"
+            android:layout_width="302dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:text="User Interfoce and User Experience"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/btn_rlC"
+            app:layout_constraintTop_toBottomOf="@+id/rlB" />
+        <ImageButton
+            android:id="@+id/btn_rlD"
+            android:layout_width="39dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_rlC"
+            app:srcCompat="@drawable/reply" />
+
+        <TextView
+            android:id="@+id/txt_rlD"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="D"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_rlD"
+            app:layout_constraintEnd_toEndOf="@+id/btn_rlD"
+            app:layout_constraintStart_toStartOf="@+id/btn_rlD"
+            app:layout_constraintTop_toTopOf="@+id/btn_rlD"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="245dp" />
+
+        <TextView
+            android:id="@+id/rlD"
+            android:layout_width="302dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:text="User Interfice and Using Experience"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/btn_rlD"
+            app:layout_constraintTop_toBottomOf="@+id/rlC" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
